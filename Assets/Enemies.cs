@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemies : MonoBehaviour
 {
     // Start is called before the first frame update
+    public int Life = 5; 
     void Start()
     {
         Debug.Log("to show on github");
